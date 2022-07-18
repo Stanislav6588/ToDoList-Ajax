@@ -1,0 +1,67 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap);
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body{
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	background-color: #eeeeee;
+}
+.container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20px;
+}
+h1{
+	text-align: center;
+	font-size: 32px;
+	margin: 10px;
+	color: gray;
+	font-weight: 500;
+}
+.taskNotComplite, .taskComplite{
+	width: 600px;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+	background-color: white;
+	margin-bottom: 5px;
+}
+input{
+	width: 80%;
+	border: none;
+}
+.check{
+	width: 25px;
+	height: 25px;
+	border-radius: 50% ;
+	border: 1px solid black;
+	margin-left: 15px;
+	cursor: pointer;
+}
+.option{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 1px solid black;
+	margin-right: 15px;
+	cursor: pointer;
+}
+.checkIcon{
+	background-image: url(../image/checkmark.png);
+	background-size: cover;
+}
+.plusIcon{
+	background-image: url(../image/plus.png);
+	background-size: cover;
+}
+.minusIcon{
+	background-image: url(../image/minus.png);
+	background-size: cover;
+}
